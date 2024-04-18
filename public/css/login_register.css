@@ -1,0 +1,43 @@
+#login-form input[required]{
+  height: 50px;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+#register-button{
+  border-color: var(--website-main-color);
+}
+
+#register-button:hover{
+  background: none;
+}
+
+.required-input{
+  color: #ff5555;
+  font-weight: bold;
+}
+
+/* #togglePassword {
+  margin-left: 590px;
+  cursor: pointer;
+} */
+
+#togglePassword:hover {
+  cursor: pointer;
+}
+
+.login-tab {
+  cursor: pointer;
+}
+.login-tab.active {
+  border-bottom: 2px solid #007bff; /* Highlight the active tab */
+}
+
+.password-field {
+  display: flex;
+  align-items: center;
+} 
+
+.password-field .form-control {
+  flex-grow: 1;
+}
